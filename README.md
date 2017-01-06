@@ -22,7 +22,8 @@ Here are the requirements of a modern web-front-end hot-reloading system:
 
 1. Does not require a page refresh; this is obvious for those familiar with HL;
 developers should be able to make changes to their codebase and see the changes
-reflected in the UI immediately.
+reflected in the UI immediately. By eschewing a refresh, we preserve console logging
+output, which aids developers.
 
 2. Loads new code into the runtime (HTML, CSS, JS) without any changes to state in JavaScript - the code changes;
 the data should not change.
