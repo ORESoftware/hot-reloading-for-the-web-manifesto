@@ -17,30 +17,34 @@ a higher priority.
 
 
 
-Here are the requirements of a modern web front-end hot-reloading system:
+Here are the requirements of a modern web-front-end hot-reloading system:
 
 
-(1) Does not require a page refresh; developers should be able to make changes to their codebase and see the changes
+1. Does not require a page refresh; this is obvious for those familiar with HL;
+developers should be able to make changes to their codebase and see the changes
 reflected in the UI immediately.
 
-(2) Loads new code into the runtime (HTML, CSS, JS) without any changes to state in JavaScript - the code changes,
+2. Loads new code into the runtime (HTML, CSS, JS) without any changes to state in JavaScript - the code changes;
 the data should not change.
 
-(3) Maximize the amount of the codebase that can be hot-reloaded, so as to minimize the amount of information the developer
+3. Maximize the amount of the codebase that can be hot-reloaded, so as to minimize the amount of information the developer
 has to hold in their head as to what can and cannot be hot-reloaded.
 
-(4) Works in a predictable, consistent manner, without any real contingincies or bugs.
+4. Works in a predictable, consistent manner, without any real contingincies or bugs.
 
-(5) Requires minimal if not zero onus on the front-end developer to adhere to certain coding patterns or constraints;
+5. Requires minimal if not zero onus on the front-end developer to adhere to certain coding patterns or constraints;
 that is to say - hot-reloading features should work with near zero-configuration and constraints on the front-end.
 
-(6) Can work across different IDE's (is agnostic); that is, backend support for hot-reloading (most likely websockets)
-should be agnostic.
+6. Can work across different IDE's; that is, backend support for hot-reloading (most likely websockets)
+should be IDE agnostic.
 
-(7) Should be platform independent - support for Windows and *nix (where MacOS is a *nix flavor).
+7. Should be platform independent - support for Windows and *nix (where MacOS is a *nix flavor).
 
-(8) Can work in all browsers; that is to say it is browser independent.
+8. Can work in all browsers; that is to say it is browser independent.
 
-(9) Requires minimum serverside configuration to enable front-end hot-reloading.
+9. Requires minimum server-side configuration to enable front-end hot-reloading. Hot reloading should be easy to
+"turn on" and "turn off" on the part of the developer.
+
+10. Hot-reloading should be available in "development mode", but safely disabled by default in "production mode".
 
 
