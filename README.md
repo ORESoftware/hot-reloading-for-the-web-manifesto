@@ -18,7 +18,7 @@ a higher priority.
 
 ## Hot Reloading As We Envision It:
 
-# Here are the requirements of a modern web-front-end hot-reloading system:
+### Here are the requirements of a modern web-front-end hot-reloading system:
 
 
 1. Does not require a page refresh; this is obvious for those familiar with HL;
