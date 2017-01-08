@@ -9,14 +9,19 @@ This can be done to various effect in all sorts of programs for different purpos
 so that both visual design and rendering logic can be changed rapidly. This will lead to faster development iteration on the part of individual developers,
 on a minute-by-minute basis. Unfortunately, despite the advantageous promised by hot-reloading, it is not a facility
 that is well-known or understood by most web developers. Good extended experience with hot-reloading systems is rare, both inside and outside of web development.
+
 Experience with hot-reloading of code is shared by developers in the following
-areas: (Talk about Erlang, JRebel, process-per-request systems like PHP). 
-Unfortunately, with the modern web front-end changing so often, hot-reloading has been again relegated as secondary none-priority feature.
+areas: (Talk about Erlang, JRebel, process-per-request systems like PHP, and any front-end web development systems that had such a thing).
+ 
+* If you have had a positive experience with a hot-reloading web-front-end workflow, please feel free to modify the HL-stories.md file with a PR,
+ and add your info to the list of successful/not-so-successful hot-reloading systems.
+ 
+Unfortunately, with the modern web front-end changing so often, hot-reloading has been again relegated as a lower-priority feature.
 As authors of this manifesto we feel that hot-reloading is an underrated feature for front-end web development and should be
 a higher priority.
 
 
-## Hot Reloading As We Envision It:
+## Hot Reloading As We Envision It
 
 ### Here are the requirements of a modern web-front-end hot-reloading system:
 
